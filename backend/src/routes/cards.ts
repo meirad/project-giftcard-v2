@@ -76,7 +76,7 @@ app.get('/users/:id/expiring-time', async (req: Request, res: Response) => {
 });
 
 
-
+// Update notification time for a user
 app.put('/users/:id/notification-time', async (req: Request, res: Response) => {
     try {
     const db = getDb();
